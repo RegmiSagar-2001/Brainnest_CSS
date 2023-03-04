@@ -1,0 +1,24 @@
+
+*{
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+}
+.link-btn{
+    color:antiquewhite;
+    background-color: rgb(187, 126, 46);
+    font-size: 20px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    padding:4px;
+    text-decoration: none;
+    font-family:inherit;
+}
+.img{
+    margin-top: 40px;
+    border-radius: 20px;
+    outline: 8px solid red;
+    outline-offset: 10px;
+    width:800px;
+}

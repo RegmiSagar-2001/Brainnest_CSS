@@ -1,0 +1,149 @@
+@font-face{
+    font-family:"Roboto";
+    src: url(./Roboto/Roboto-Black.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    font-family: "Roboto" , sans-serif;   
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:10vh;
+    background-color:#1F2937;
+    padding-left: 5rem;
+}
+.header-logo{
+    flex:2;
+    color: #f9faf8;
+    
+}
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    flex:1;
+    padding-right: 5rem;
+}
+.header-link{
+    text-decoration: none;
+    color: azure;
+}
+
+.main{
+    display:flex;
+    background-color: #1F2937;
+    height:45vh;
+    flex-direction: row;
+}
+.main-one{
+    flex:1;
+    padding:4rem;
+}
+.main-one-heading{
+    font-size: 48px;
+    color:#f9faf8;
+}
+.main-one-paragraph{
+    color: white;
+}
+.main-two{
+    flex:1;
+    padding:2rem;
+}
+
+.main-one-btn{
+    background-color: rgb(91, 91, 185);
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    margin-top: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: .4rem;
+}
+
+.main-two-img{
+    width:30vw;
+    height: auto;
+}
+
+.container-one{
+    margin-top:4rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+.container-one-heading{
+    font-size: 2rem;
+}
+.container-one-boxes{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    
+}
+.container-one-box{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.box-img{
+    width:20rem;
+    height:auto;
+}
+.box-text{
+    color:black;
+}
+.container-two{
+    margin-top: 4rem;
+    padding: 4rem 20rem;
+    background-color: #e5e7eb;
+}
+.container-two-text{
+    color:black;
+    font-size: 1.2rem;
+}
+.container-two-author{
+    color: black;
+    text-align: right;
+}
+
+.container-three{
+    display: flex;
+    justify-content: center;
+    padding:4rem 0;
+}
+.container-three-box{
+    width:60vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: .6rem;
+    padding:1.5rem;
+}
+.container-three-box-text{
+    color:white;
+}
+
+.container-three-btn{
+    background-color: #3882f6;
+    text-decoration: none;
+    color: white;
+    border: .1rem solid whitesmoke;
+    font-size: 1.3rem;
+    padding:0 1rem ;
+    border-radius: .4rem;
+}
+
+.footer-container{
+    height: 6vh;
+    background-color: #1F2937;
+    text-align: center;
+}
+.footer-text{
+    color: white;
+}

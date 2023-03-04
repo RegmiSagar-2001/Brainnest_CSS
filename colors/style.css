@@ -1,0 +1,16 @@
+.container{
+    background-color:aquamarine;
+    color:blanchedalmond;
+}
+h1{
+    color:rebeccapurple; /*keyword*/
+}
+h2{
+    color:#FF5733; /*hexadecimal*/
+}
+h3{
+    color:rgb(190,255,51); /*rgb*/
+}
+h4{
+    color:hsl(201, 80%,60%); /*hsl*/
+}
